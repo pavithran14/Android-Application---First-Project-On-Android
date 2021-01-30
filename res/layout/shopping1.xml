@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:background="#004d00"
+        android:orientation="horizontal" >
+
+        <AutoCompleteTextView
+            android:id="@+id/i1"
+            android:layout_width="230dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Search" />
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/linearLayout1" >
+
+        <LinearLayout
+            android:id="@+id/l1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="#FFFFFF"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="20dp"
+                android:text="Hints :"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:textColor="@color/green" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:text="1.Its an preliminary Application"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+			<TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:paddingTop="10dp"
+                android:text="2.Search Button is used to search the 4 different item"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:paddingTop="10dp"
+                android:text="3.Pendrive,Laptop,Memory Cards,Headsets are the 4 different items to be searched"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			<TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:paddingTop="10dp"
+                android:text="4.100% Original Products"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:paddingTop="10dp"
+                android:text="5.Delivery within a Week"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+
+			<TextView
+                android:id="@+id/textView7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:paddingTop="10dp"
+                android:text="6.Payment Options are Included"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			<TextView
+                android:id="@+id/textView8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:paddingTop="10dp"
+                android:text="7.No Returns of the product"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+			<TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="92dp"
+                android:paddingTop="10dp"
+                android:text="8.100% Safe Online Transaction"
+                android:textColor="@color/green"
+                android:textAppearance="?android:attr/textAppearanceSmall" />
+			
+						
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

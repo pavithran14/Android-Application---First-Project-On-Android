@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="#004d00" >
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="276dp"
+        android:layout_height="238dp"
+        android:layout_x="21dp"
+        android:layout_y="2dp"
+        android:src="@drawable/logo" />
+
+    <EditText
+        android:id="@+id/u"
+        android:layout_width="184dp"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="245dp"
+        android:hint="Mobile No" >
+
+        <requestFocus />
+    </EditText>
+
+    <Button
+        android:id="@+id/log"
+        android:layout_width="125dp"
+        android:layout_height="wrap_content"
+        android:layout_x="88dp"
+        android:layout_y="350dp"
+        android:text="Touch me!" />
+
+    <TextView
+        android:id="@+id/nu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="121dp"
+        android:layout_y="407dp"
+        android:text="New User?"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <EditText
+        android:id="@+id/p"
+        android:layout_width="183dp"
+        android:layout_height="wrap_content"
+        android:layout_x="70dp"
+        android:layout_y="296dp"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+</AbsoluteLayout>

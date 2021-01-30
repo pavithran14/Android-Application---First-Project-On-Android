@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+
+
+	<LinearLayout
+	    android:id="@+id/linearLayout1"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:background="#004d00"
+	    android:orientation="horizontal" >
+
+
+
+
+	   <AutoCompleteTextView
+	       android:id="@+id/i1"
+	       android:layout_width="230dp"
+	       android:layout_height="60dp"/>
+
+
+	    <Button
+	        android:id="@+id/button1"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:text="Search" />
+	   
+
+	</LinearLayout>
+	<fragment 
+	     
+	    android:id="@+id/f1"
+	    android:layout_width="match_parent"
+	    android:layout_height="350dp"
+	   
+	    android:layout_x="0dp"
+	    android:layout_y="60dp"
+	    ></fragment>
+</AbsoluteLayout>

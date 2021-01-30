@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+
+   <AbsoluteLayout 
+       android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+ 
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="#004d00"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product  : Purchased"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp" />
+
+       
+</LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="136dp"
+        android:layout_height="136dp"
+        android:layout_x="90dp"
+        android:layout_y="70dp"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="47dp"
+        android:layout_y="244dp"
+        android:text="Product : "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="68dp"
+        android:layout_y="275dp"
+        android:text="Code :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="61dp"
+        android:layout_y="307dp"
+        android:text="Name :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="370dp"
+        android:text="Address :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="44dp"
+        android:layout_y="338dp"
+        android:text="Number :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView04"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="45dp"
+        android:layout_y="411dp"
+        android:text="Amount :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView06"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="40dp"
+        android:layout_y="448dp"
+        android:text="Payment :"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="83dp"
+        android:layout_y="494dp"
+        android:text="Thank you!!"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="211dp"
+        android:layout_y="538dp"
+        android:text="Click Here"
+        android:textColor="@color/green"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <TextView
+        android:id="@+id/TextView07"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="274dp"
+        android:text="name  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView08"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="305dp"
+        android:text="name  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView05"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="129dp"
+        android:layout_y="246dp"
+        android:text="name  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView09"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="336dp"
+        android:text="name  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="370dp"
+        android:text="name  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="409dp"
+        android:text="name  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+    <TextView
+        android:id="@+id/TextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="132dp"
+        android:layout_y="447dp"
+        android:text="name  "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="@color/green" />
+
+</AbsoluteLayout>
+</ScrollView>

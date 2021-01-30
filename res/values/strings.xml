@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, D_marTActivity!</string>
+    <string name="app_name">D_Mart</string>
+    <color name="green">#004d00</color>
+    <string name="pay2">Cash On Delivery</string>
+    <string name="pay1">Debit Card</string>
+</resources>

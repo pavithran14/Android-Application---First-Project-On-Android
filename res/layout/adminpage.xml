@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+        <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="fill_parent"
+        android:layout_height="44dp"
+        android:background="#004d00"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="D-Mart : Admin"
+            android:paddingTop="5dp"
+            android:paddingLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingLeft="50dp"
+            android:paddingTop="15dp"
+            android:text="LogOut"
+            android:textAppearance="?android:attr/textAppearanceSmall" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/order"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="143dp"
+            android:background="@color/green"
+            android:text="  View Orders  " />
+
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/order"
+            android:layout_below="@+id/linearLayout1"
+            android:layout_marginTop="69dp"
+            android:background="@color/green"
+            android:text="  View Profiles  " />
+
+        <Button
+            android:id="@+id/del"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/order"
+            android:layout_below="@+id/order"
+            android:layout_marginTop="22dp"
+            android:background="@color/green"
+            android:text="  Delete Profile  " />
+
+</RelativeLayout>
